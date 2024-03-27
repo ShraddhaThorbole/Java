@@ -31,7 +31,7 @@ class Student extends Department
 	}
 }
 
-class Single_Inheritance
+class Single_Inheritance_Demo
 {
 	public static void main(String args[])
 	{
