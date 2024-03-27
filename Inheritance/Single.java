@@ -12,7 +12,6 @@ class Department
 	dept_no=Integer.parseInt(sc.nextLine());
 	}
 }
-
 class Student extends Department
 {
 	String s_name;
@@ -31,7 +30,7 @@ class Student extends Department
 	}
 }
 
-class Single_Inheritance_Demo
+class Single
 {
 	public static void main(String args[])
 	{
