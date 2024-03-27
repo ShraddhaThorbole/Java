@@ -27,12 +27,11 @@ class Student extends Department
 	}
 	void putData()
 	{
-		System.out.println("Department name:"+dept_name+"Department No."+dept_no+
-        "Student Name:"+s_name+"Student Roll no. :"+r_no);
+		System.out.println("Department name:"+dept_name+"Department No."+dept_no+"Student Name:"+s_name+"Student Roll no. :"+r_no);
 	}
 }
 
-class SingleInheritance
+class Single_Inheritance
 {
 	public static void main(String args[])
 	{
@@ -42,7 +41,6 @@ class SingleInheritance
 		s.putData();
 	}
 }
-
 
 
 
