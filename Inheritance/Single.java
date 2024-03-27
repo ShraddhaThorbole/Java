@@ -6,9 +6,9 @@ class Department
 	void getDept()
 	{
 	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter department name:");
+	System.out.println("Enter Department Name:");
 	dept_name=sc.nextLine();
-	System.out.println("Enter department no.:");
+	System.out.println("Enter Department No.:");
 	dept_no=Integer.parseInt(sc.nextLine());
 	}
 }
