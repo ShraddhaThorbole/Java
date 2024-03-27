@@ -1,3 +1,4 @@
+package Inheritance;
 import java.util.*;
 class Department
 {
@@ -32,7 +33,7 @@ class Student extends Department
 	}
 }
 
-class SingleInheitance
+class SingleInheritance
 {
 	public static void main(String args[])
 	{
