@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Shape 
+abstract class Shape 
 {
     double a;
     double b;
@@ -11,18 +11,15 @@ class Shape
         System.out.println("Enter the value of b : ");
         b = sc.nextDouble();
     }
-    void computeArea()
-    {
-        //default implementation
-    }
+    abstract void computeArea();
 }
 
 class Triangle extends Shape 
 {
     @Override
-    void computeArea() 
+    public void computeArea() 
     {
-       double a1=  (1.0/2)* a * b;
+       double a1=(1.0/2)* a * b;
        System.out.println("Area of Triangle:"+a1);
     }
 }
@@ -30,7 +27,7 @@ class Triangle extends Shape
 class Rectangle extends Shape 
 {
     @Override
-    void computeArea() 
+    public void computeArea() 
     {
         double a2= a * b;
         System.out.println("Area of Rectangle:"+a2);
