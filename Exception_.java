@@ -24,8 +24,7 @@ class Exception_
         }
         finally
         {
-            System.out.println("Executed Finally  Block");
+            System.out.println("Finally  Block");
         }
-        sc.close();
     }
 }
